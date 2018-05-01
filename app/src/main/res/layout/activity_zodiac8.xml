@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.illinois.cs.cs125.myapplication.Zodiac8">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="371dp"
+        android:layout_height="193dp"
+        android:layout_marginTop="60dp"
+        android:text="One will be able to enjoy the fun of living if one can get corresponding price or reward they worked for. A busy day is expected. Many people will look for you here and there. Even ten hands will not be enough. However, please enjoy your busy schedule as they will pay off in the future. If you run a business, you might come up with ideas that overturn social myths"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

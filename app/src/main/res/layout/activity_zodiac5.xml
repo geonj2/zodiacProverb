@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.illinois.cs.cs125.myapplication.Zodiac5">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="371dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="60dp"
+        android:text="The fog in front of your eyes is the aura of the star that blinds your vision, but it is a place to push forward. You can expect a busy day with minor anxieties. But currently, I need more sufficient mind and room. Remember that beautiful minds can be a great force in tackling the difficulties that come up. And today, you can meet a business partner who speak the same language, and if you are economically difficult, there might be financial help from somewhere. It is not so at first, but in fact it is deeply related to your deeds"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

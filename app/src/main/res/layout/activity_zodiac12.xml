@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.illinois.cs.cs125.myapplication.Zodiac12">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="371dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="60dp"
+        android:text="Constellation says that you need a more modest posture today. It is easy to cause troubles if you overestimate your own talents and abilities and push hard to work. You will need more prudence and carefulness are need than courage or guts. Since the surrounding situation is unclear, it is good practice to take appropriate action to the situation and circumstances. If there is something you want to pursue, holding it for a while is recommended"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

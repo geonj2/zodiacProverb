@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.illinois.cs.cs125.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <provider android:authorities="com.facebook.app.FacebookContentProvider246100199289187"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true"/>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Zodiac1" />
+        <activity android:name=".Zodiac2" />
+        <activity android:name=".Zodiac3" />
+        <activity android:name=".Zodiac4" />
+        <activity android:name=".Zodiac5" />
+        <activity android:name=".Zodiac6" />
+        <activity android:name=".Zodiac7" />
+        <activity android:name=".Zodiac8" />
+        <activity android:name=".Zodiac9" />
+        <activity android:name=".Zodiac10" />
+        <activity android:name=".Zodiac11" />
+        <activity android:name=".Zodiac12"></activity>
+    </application>
+
+</manifest>

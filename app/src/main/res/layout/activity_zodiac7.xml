@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.illinois.cs.cs125.myapplication.Zodiac7">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="371dp"
+        android:layout_height="258dp"
+        android:layout_marginTop="60dp"
+        android:text="As the surrounding area is disturbing, a busy day is expected. As there will be a lot of work and a lot of problems, there will be a lot of enticing temptations. A difficult situation is anticipated, and the god of luck has hidden itself for a moment. Sometimes it may be embarrassing and hard to bear, but it is necessary to firmly establish self-centering so that it does not become more disturbing. How about starting an introduction to silence today? If you put your mind down and put your weight on your mouth, it will calm down the day"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
